@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import SymptomChecker from "./pages/SymptomChecker";
 import DoctorConsult from "./pages/DoctorConsult";
 import Prescriptions from "./pages/Prescriptions";
+import DoctorV0 from "./pages/DoctorV0";
 import Appointment from "./pages/Appointment";
 import DosageTracker from "./pages/DosageTracker";
 import NotFound from "./pages/NotFound";
@@ -33,6 +34,7 @@ const App = () => (
               <Route path="/symptom" element={<ProtectedRoute><SymptomChecker /></ProtectedRoute>} />
               <Route path="/consult" element={<ProtectedRoute><DoctorConsult /></ProtectedRoute>} />
               <Route path="/prescriptions" element={<ProtectedRoute><Prescriptions /></ProtectedRoute>} />
+              <Route path="/doctor" element={<ProtectedRoute><DoctorV0 /></ProtectedRoute>} />
               <Route path="/appointment" element={<ProtectedRoute><Appointment /></ProtectedRoute>} />
               <Route path="/dosage" element={<ProtectedRoute><DosageTracker /></ProtectedRoute>} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

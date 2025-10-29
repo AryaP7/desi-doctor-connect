@@ -14,6 +14,9 @@ const translations: Record<Language, Record<string, string>> = {
     'landing.title': 'Rural Healthcare Made Simple',
     'landing.subtitle': 'Quality healthcare accessible from anywhere, even on slow connections',
     'landing.login': 'Login with Phone',
+    'landing.trust.prefix': 'Trusted public service platform under',
+    'landing.trust.mission': 'Ayushman Bharat Digital Mission',
+    'landing.trust.suffix': 'Accessible on low bandwidth.',
     
     // Auth
     'auth.phoneNumber': 'Phone Number',
@@ -45,6 +48,9 @@ const translations: Record<Language, Record<string, string>> = {
     'landing.title': 'ಗ್ರಾಮೀಣ ಆರೋಗ್ಯ ಸೇವೆ ಸುಲಭವಾಗಿ',
     'landing.subtitle': 'ನಿಧಾನ ಇಂಟರ್ನೆಟ್‌ನಲ್ಲೂ ಎಲ್ಲಿಂದಲಾದರೂ ಗುಣಮಟ್ಟದ ಆರೋಗ್ಯ ಸೇವೆ',
     'landing.login': 'ಫೋನ್ ನಂಬರ್‌ನೊಂದಿಗೆ ಲಾಗಿನ್',
+    'landing.trust.prefix': 'ವಿಶ್ವಾಸಾರ್ಹ ಸಾರ್ವಜನಿಕ ಸೇವಾ ವೇದಿಕೆ –',
+    'landing.trust.mission': 'ಅಯುಷ್ಮಾನ್ ಭಾರತ ಡಿಜಿಟಲ್ ಮಿಷನ್',
+    'landing.trust.suffix': 'ಅಡಿಯಲ್ಲಿ. ಕಡಿಮೆ ಬ್ಯಾಂಡ್‌ವಿಡ್ತ್‌ನಲ್ಲೂ ಲಭ್ಯ.',
     
     // Auth
     'auth.phoneNumber': 'ಫೋನ್ ನಂಬರ್',
